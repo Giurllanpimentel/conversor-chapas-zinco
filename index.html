@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Conversor de Zinco de Peso para Metros</h2>
+
+    <label for="quantidade">Quantidade de bobinas de Zinco:</label>
+    <input type="number" id="quantidade" placeholder="Ex: 5" step="0.1" />
+
+     <label for="peso">Peso da bobina:</label>
+    <input type="number" id="peso" placeholder="Ex: 100kg" step="0.1" />
+
+    <label for="largura">Largura da chapa:</label>
+<select id="largura">
+  <option value="1.00">1,00 m</option>
+  <option value="1.20">1,20 m</option>
+  <option value="0.40">0,40 m</option>
+  <option value="0.50">0,50 m</option>
+  <option value="0.60">0,60 m</option>
+  <option value="0.70">0,70 m</option>
+  <option value="0.80">0,80 m</option>
+  <option value="0.90">0,90 m</option>
+</select>
+
+    <button onclick="calcularZinco()">Converter</button>
+
+    <div id="resultado"></div>
+     <a href="https://www.instagram.com/giurllanpimentel/" target="_blank" rel="noopener noreferrer">Feito por <strong>Giurllan Pimentel</strong></a>
+   
+</body>
+<script src="./script.js"></script>
+</html>
